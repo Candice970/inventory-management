@@ -9,3 +9,22 @@
   M[Customer] -->|Places Orders| N[Place Order];
   O[System] -->|Approves Orders| P[Approve Order];
   O -->|Notifies Stakeholders| Q[Send Notifications];
+
+
+## Key Actors and Their Roles
+- Admin: Responsible for managing users, viewing reports, and overseeing the overall system.
+- Manager: Responsible for managing inventory, viewing stock levels, and making decisions based on inventory data.
+- Employee: Responsible for updating stock levels, viewing inventory, and performing daily inventory tasks.
+- Supplier: Responsible for receiving orders and providing goods to the system.
+
+## Relationships Between Actors and Use Cases
+- The Admin actor is associated with the "Manage Users" and "View Reports" use cases.
+- The Manager actor is associated with the "Manage Inventory" and "View Stock Levels" use cases.
+- The Employee actor is associated with the "Update Stock Levels" and "View Inventory" use cases.
+- The Supplier actor is associated with the "Receive Orders" use case.
+
+## How the Diagram Addresses Stakeholder Concerns
+- The diagram addresses the concern of inventory management by including use cases for managing inventory, viewing stock levels, and updating stock levels.
+- The diagram addresses the concern of user management by including the "Manage Users" use case.
+- The diagram addresses the concern of reporting by including the "View Reports" use case.
+- The diagram addresses the concern of supplier integration by including the "Receive Orders" use case.
