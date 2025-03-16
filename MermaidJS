@@ -1,0 +1,11 @@
+  A[Admin] -->|Manages Users| B[Manage Users];
+  A -->|Generates Reports| C[Generate Reports];
+  D[Inventory Manager] -->|Adds Items| E[Add Item];
+  D -->|Updates Stock| F[Update Stock];
+  D -->|Tracks Shipments| G[Track Shipments];
+  H[Employee] -->|Searches Products| I[Search Products];
+  J[Supplier] -->|Receives Orders| K[Receive Inventory];
+  J -->|Updates Product Info| L[Update Product Info];
+  M[Customer] -->|Places Orders| N[Place Order];
+  O[System] -->|Approves Orders| P[Approve Order];
+  O -->|Notifies Stakeholders| Q[Send Notifications];
