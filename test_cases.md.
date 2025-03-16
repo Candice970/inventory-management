@@ -1,0 +1,4 @@
+| Test Case ID | Requirement ID | Description | Steps | Expected Result | Actual Result | Status |
+|-------------|---------------|-------------|-------|-----------------|---------------|--------|
+| TC-001 | FR-001 | Add a new item to inventory | 1. Login as Inventory Manager  2. Navigate to 'Add Item'  3. Enter item details  4. Click 'Save' | Item is successfully added | | |
+| TC-002 | FR-002 | Update stock levels | 1. Login as Inventory Manager  2. Search for an item  3. Click 'Update Stock'  4. Enter new quantity  5. Click 'Save' | Stock quantity updates successfully | | |
