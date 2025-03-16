@@ -1,0 +1,151 @@
+Case Specification
+
+## Case specifications
+# Use Case 1: Manage Users
+Description
+The Admin manages user accounts, including creating, updating, and deleting users.
+
+# Preconditions
+1. The Admin is logged in.
+2. The Admin has the necessary permissions.
+
+# Postconditions
+1. The user account is created, updated, or deleted.
+2. The user account is assigned the correct role.
+
+# Basic Flow
+1. The Admin logs in to the system.
+2. The Admin navigates to the user management page.
+3. The Admin selects the action to perform (create, update, or delete).
+4. The Admin enters the necessary user information.
+5. The system validates the user information.
+6. The system performs the selected action.
+
+# Alternative Flows
+1. Invalid user information: The system displays an error message.
+2. Insufficient permissions: The system displays an error message.
+
+# Use Case 2: View Reports
+# Description
+The Admin views reports on inventory levels, stock movements, and other relevant data.
+
+# Preconditions
+1. The Admin is logged in.
+2. The Admin has the necessary permissions.
+
+# Postconditions
+1. The report is displayed to the Admin.
+2. The report is accurate and up-to-date.
+
+## Basic Flow
+1. The Admin logs in to the system.
+2. The Admin navigates to the reports page.
+3. The Admin selects the report to view.
+4. The system generates the report.
+5. The system displays the report.
+
+# Alternative Flows
+1. Report not found: The system displays an error message.
+2. Insufficient permissions: The system displays an error message.
+
+# Use Case 3: Manage Inventory
+# Description
+The Manager manages inventory levels, including updating stock levels and tracking stock movements.
+
+# Preconditions
+1. The Manager is logged in.
+2. The Manager has the necessary permissions.
+
+# Postconditions
+1. The inventory level is updated.
+2. The stock movement is tracked.
+
+# Basic Flow
+1. The Manager logs in to the system.
+2. The Manager navigates to the inventory management page.
+3. The Manager selects the action to perform (update stock level or track stock movement).
+4. The Manager enters the necessary inventory information.
+5. The system validates the inventory information.
+6. The system performs the selected action.
+
+# Alternative Flows
+1. *Invalid inventory information*: The system displays an error message.
+2. *Insufficient permissions*: The system displays an error message.
+
+# Use Case 4: View Stock Levels
+Description
+The Manager views current stock levels for all inventory items.
+
+# Preconditions
+1. The Manager is logged in.
+2. The Manager has the necessary permissions.
+
+# Postconditions
+1. The stock levels are displayed to the Manager.
+2. The stock levels are accurate and up-to-date.
+
+## Basic Flow
+1. The Manager logs in to the system.
+2. The Manager navigates to the stock levels page.
+3. The system displays the current stock levels.
+
+# Alternative Flows
+1. Stock levels not found: The system displays an error message.
+2. Insufficient permissions: The system displays an error message.
+
+# Use Case 5: Update Stock Levels
+# Description
+The Employee updates stock levels for inventory items.
+
+# Preconditions
+1. The Employee is logged in.
+2. The Employee has the necessary permissions.
+
+*Postconditions*
+1. The stock level is updated.
+2. The update is tracked.
+
+## Basic Flow
+1. The Employee logs in to the system.
+2. The Employee navigates to the stock levels page.
+3. The Employee selects the inventory item to update.
+4. The Employee enters the new stock level.
+5. The system validates the update.
+6. The system updates the stock level.
+
+# Alternative Flows
+1. *Invalid update*: The system displays an error message.
+2. *Insufficient permissions*: The system displays an error message.
+
+# Use Case 6: View Inventory
+# Description
+The Employee views inventory items and their details.
+
+# Preconditions
+1. The Employee is logged in.
+2. The Employee has the necessary permissions.
+
+# Postconditions
+1. The inventory items are displayed to the Employee.
+2. The inventory items are accurate and up-to-date.
+
+# Basic Flow
+1. The Employee logs in to the system.
+2. The Employee navigates to the inventory page.
+3. The system displays the inventory items.
+
+# Alternative Flows
+1. Inventory not found: The system displays an error message.
+2. Insufficient permissions: The system displays an error message.
+
+# Use Case 7: Receive Orders
+Description
+The Supplier receives orders from the system.
+
+## Preconditions
+1. The Supplier is registered in the system.
+2. The Supplier has the necessary permissions.
+
+# Postconditions
+1. The order is received by the Supplier.
+2. The order is accurate and complete.
